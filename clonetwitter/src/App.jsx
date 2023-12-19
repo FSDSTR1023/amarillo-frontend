@@ -4,6 +4,7 @@ import Users from "./pages/Users";
 import Button from "./components/Button";
 import CreatePost from "./components/CreatePost";
 import EmailLogin from "./pages/EmailLogin";
+import Posts from "./pages/Posts";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Button />
       <CreatePost /> */}
       <EmailLogin />
-      <CreatePost />
+
+      <Posts />
 
       {/* <Navbar /> */}
       {/* <MainContainer>

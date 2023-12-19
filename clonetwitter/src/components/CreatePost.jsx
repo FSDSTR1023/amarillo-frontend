@@ -42,7 +42,6 @@ const CreatePost = () => {
       <input
         type="textarea"
         placeholder="What's happening?"
-        name="content"
         value={postContent}
         onChange={handleChange}
       />
